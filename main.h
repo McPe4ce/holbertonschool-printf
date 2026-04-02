@@ -15,5 +15,10 @@ typedef struct type
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int print_char(va_list *pargument);
+int longueprint2string(va_list *pargument);
+int print_pour2cent(va_list *pargument);
+int print_decimal(va_list *pargument);
+int handle_specifier(char specifier, typeuh *array, va_list *pargument);
 
 #endif
